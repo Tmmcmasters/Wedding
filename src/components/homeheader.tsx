@@ -18,12 +18,13 @@ export default function HomeHeader() {
                         isBordered
                         as={Link}
                         color="secondary"
-                        href={"#"}
+                        href={"/"}
+                        fallback="Chloe/Timothy"
                     />
                 </NavbarBrand>
                 <NavbarContent className="flex  gap-5" justify="end">
                     <NavbarItem>
-                        <Button as={Link} href="#" size="sm" color="secondary" variant="ghost">
+                        <Button as={Link} href="/honeymoon" size="sm" color="secondary" variant="ghost">
                             Honeymoon
                         </Button>
                     </NavbarItem>
